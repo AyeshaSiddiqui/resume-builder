@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Resume Form</h1> <br>
+    <form id="form">
+        <h2>Petsonal Details</h2>
+        <hr> <br>
+
+        <div class="form-group">
+            <label for="name" class="label">Name:</label>
+            <input type="text" class="input" id="name" autocomplete="off" required>
+        </div>
+
+        <div class="form-group">
+            <label for="desig" class="label">Designation:</label>
+            <input type="text" class="input" id="desig" autocomplete="off" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone" class="label">Phone:</label>
+            <input type="tel" class="input" id="phone" autocomplete="off" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email" class="label">Email:</label>
+            <input type="email" class="input" id="email" autocomplete="off" required>
+        </div>
+
+        <div class="form-group">
+            <label for="addr" class="label">Address:</label>
+            <input type="text" class="input" id="addr" autocomplete="off">
+        </div>
+
+        <div class="form-group">
+            <label for="pic" class="label">Profile Picture:</label>
+            <input type="file" class="input" id="pic" autocomplete="off">
+        </div>
+
+        <h2>Education</h2>
+        <hr> <br>
+        
+        <div>
+            <div class="form-group">
+                <label for="pass" class="label">Passing Year:</label>
+                <input type="number" class="input" id="pass1" autocomplete="off" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="deg" class="label">Degree:</label>
+                <input type="text" class="input" id="deg1" autocomplete="off" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="inst" class="label">Institution:</label>
+                <input type="text" class="input" id="inst1" autocomplete="off" required>
+            </div>
+        </div>
+
+        <div>
+            <div class="form-group">
+                <label for="pass" class="label">Passing Year:</label>
+                <input type="number" class="input" id="pass2" autocomplete="off">
+            </div>
+    
+            <div class="form-group">
+                <label for="deg" class="label">Degree:</label>
+                <input type="text" class="input" id="deg2" autocomplete="off">
+            </div>
+    
+            <div class="form-group">
+                <label for="inst" class="label">Institution:</label>
+                <input type="text" class="input" id="inst2" autocomplete="off">
+            </div>
+        </div>
+
+        <h2>Expertise</h2>
+        <hr> <br>
+
+        <div class="form-group">
+            <label for="skill" class="label">Skill:</label>
+            <input type="text" class="input" id="skill1" autocomplete="off" required> <br>
+            <label for="skill" class="label">Skill:</label>
+            <input type="text" class="input" id="skill2" autocomplete="off"> <br>
+            <label for="skill" class="label">Skill:</label>
+            <input type="text" class="input" id="skill3" autocomplete="off"> 
+        </div>
+
+        <h2>Language</h2>
+        <hr> <br>
+
+        <div class="form-group">
+            <label for="lang" class="label">Language 1:</label>
+            <input type="text" class="input" id="lang1" autocomplete="off"> <br>
+            <label for="lang" class="label">Language 2:</label>
+            <input type="text" class="input" id="lang2" autocomplete="off">
+        </div>
+
+        <h2>Experience</h2>
+        <hr> <br>
+
+        <div class="form-group">
+            <label for="stYear" class="label">Start Year:</label>
+            <input type="number" class="input" id="stYear" autocomplete="off"> <br>
+
+            <label for="endYear" class="label">End Year:</label>
+            <input type="number" class="input" id="endYear" autocomplete="off"> <br>
+
+            <label for="company" class="label">Company:</label>
+            <input type="text" class="input" id="company" autocomplete="off"> <br>
+
+            <label for="compLocation" class="label">Company Location:</label>
+            <input type="text" class="input" id="compLocation" autocomplete="off"> <br>
+
+            <label for="jobTitle" class="label">Job Title:</label>
+            <input type="text" class="input" id="jobTitle" autocomplete="off"> <br>
+
+            <label for="achv" class="label">Achievements:</label>
+            <input type="text" class="input" id="achv1" autocomplete="off"> <br>
+            <input type="text" class="input" id="achv2" autocomplete="off"> <br>
+            <input type="text" class="input" id="achv3" autocomplete="off"> 
+        </div>
+        <br><hr><br>
+            <center><input class="submit" type="submit" id="submitBtn"></center>
+    </form>
+   
+</body>
+<script src="script.js"></script>
+</html>
