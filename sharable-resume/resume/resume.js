@@ -85,7 +85,7 @@ window.addEventListener(`load`, () => {
     else {
         userName = `user`;
     }
-    let baseUrl = `http://127.0.0.1:5500/resume/resume.html`;
+    let baseUrl = `https://sharable-resume-ayesha-siddiqui.vercel.app/resume/resume.html`;
     let uniqueUrl = `${baseUrl}?${userName}-${Date.now()}`;
     share_btn?.addEventListener(`click`, () => {
         anc?.setAttribute(`href`, uniqueUrl);
